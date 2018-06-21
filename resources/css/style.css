@@ -13,6 +13,14 @@ html {
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 /*--------------------Banner style--------------------*/
 
 .banner {
@@ -57,11 +65,10 @@ nav a {
 
 /*--------------------Headline style--------------------*/
 
-.box {
+.whitebox {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
-  text-transform: uppercase;
   color: black;
   background-color: white;
   margin-top: 11rem;
@@ -74,4 +81,64 @@ nav a {
 .headline {
   display: flex;
   justify-content: flex-end;
+}
+
+/*--------------------Main - style--------------------*/
+
+.main {
+  justify-content: center;
+}
+
+.services {
+  margin: 3rem 0;
+  justify-content: space-between;
+}
+
+.service {
+  height: 8rem;
+  width: 5rem;
+  padding: 0 3rem;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service img {
+  width: 3.5rem;
+  height: auto;
+}
+
+/*--------------------Text - style--------------------*/
+
+.text {
+  justify-content: space-between;
+}
+
+.box {
+  width: 35%;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+  margin-bottom: 5rem;
+}
+
+/*--------------------Footer style--------------------*/
+
+footer {
+  background-color: azure;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
 }
