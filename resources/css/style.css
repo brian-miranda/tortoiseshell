@@ -63,6 +63,10 @@ nav a {
   margin: 1rem;
 }
 
+a.menu {
+  display: none;
+}
+
 /*--------------------Headline style--------------------*/
 
 .whitebox {
@@ -112,11 +116,12 @@ nav a {
 /*--------------------Text - style--------------------*/
 
 .text {
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .box {
   width: 35%;
+  padding: 0 2.5%;
 }
 
 .title {
@@ -141,4 +146,88 @@ footer {
 footer img {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
+}
+
+/*--------------------Tablet style--------------------*/
+
+@media only screen and (max-width:1024px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .banner {
+    height: 22rem;
+  }
+
+  .header {
+    top: 0;
+  }
+
+  .whitebox {
+    font-size: 1.33rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+    position: relative;
+    right: 0;
+  }
+
+  .content {
+    margin-bottom: 5rem;
+  }
+}
+
+/*--------------------Mobile style--------------------*/
+
+@media only screen and (max-width:470px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .logo span {
+    display: none;
+  }
+
+  a.menu {
+    display: block;
+  }
+
+  a.nav {
+    display: none;
+  }
+
+  .banner {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .whitebox {
+    font-size: 1rem;
+    margin-top: 9rem;
+    margin-right: -2rem;
+    padding: 1rem auto;
+    width: 100%;
+  }
+
+  .headline {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .services {
+    margin: 3rem 0;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .text {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  footer p {
+    display: none;
+  }
 }
