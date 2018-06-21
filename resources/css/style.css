@@ -1,0 +1,77 @@
+/*--------------------General style--------------------*/
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+.cadetblue {
+  background-color: cadetblue;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*--------------------Banner style--------------------*/
+
+.banner {
+  height: 30rem;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/*--------------------Header style--------------------*/
+
+.header {
+  color: white;
+  position: relative;
+  top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  width: auto;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+/*--------------------Headline style--------------------*/
+
+.box {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: black;
+  background-color: white;
+  margin-top: 11rem;
+  margin-right: -2rem;
+  padding: 1.5rem 5rem;
+  position: relative;
+  right: 0;
+}
+
+.headline {
+  display: flex;
+  justify-content: flex-end;
+}
