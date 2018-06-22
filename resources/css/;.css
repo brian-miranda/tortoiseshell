@@ -179,15 +179,6 @@ footer img {
   .content {
     margin-bottom: 5rem;
   }
-
-  .text {
-    justify-content: space-around;
-  }
-
-  .box {
-    width: 35%;
-    padding: 0 auto;
-  }
 }
 
 /*--------------------Mobile style--------------------*/
@@ -212,66 +203,31 @@ footer img {
 
   .banner {
     height: 17rem;
-    width: auto;
+    width: 100%;
     background-position: 20%;
+  }
+
+  .whitebox {
+    background-color: blue;
+    font-size: 1rem;
+    margin-top: 9rem;
+    padding: 1rem auto;
+    width: 100%;
   }
 
   .headline {
     width: 100%;
-    display: block;
-
-  }
-
-  .whitebox {
-    text-align: center;
-    font-size: 1rem;
-    margin-top: 9rem;
-    padding: 1rem 0;
-    width: 100%;
   }
 
   .services {
-    margin: 3.77rem 0;
+    margin: 3rem 0;
     flex-direction: column;
-  }
-
-  .service {
-    font-size: 0.77rem;
-    margin-bottom: 1.54 0;
-    height: 8rem;
-    width: 5rem;
-    padding: 0 3rem;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .text {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-  }
-
-  .box {
-    width: 100%;
-    margin-bottom: 4rem;
-  }
-
-  .title {
-    text-align: center;
-    padding: 0.5rem 0;
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-
-  .box p {
-    text-align: center;
-  }
-
-  footer {
-    justify-content: center;
-  }
-
-  footer img {
-    padding: 4rem;
   }
 
   footer p {
