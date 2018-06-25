@@ -191,7 +191,7 @@ footer img {
 
 /*--------------------Mobile style--------------------*/
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:650px) {
   .container {
     width: 100%;
     margin: 0 auto;
@@ -250,7 +250,7 @@ footer img {
   }
 
   .box {
-    width: 100%;
+    width: auto;
     margin-bottom: 4rem;
   }
 
